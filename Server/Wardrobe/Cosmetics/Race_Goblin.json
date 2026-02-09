@@ -1,0 +1,32 @@
+{
+  "Type": "PlayerModel",
+  "Properties": {
+    "Translation": {
+      "Name": "example.Example_BodyCharacteristic_Kweebec.name"
+    },
+    "Icon": "Icons/Wardrobe/Cosmetics/BodyCharacteristic/Example_BodyCharacteristic_Kweebec.png"
+  },
+  "CosmeticSlot": "BodyCharacteristic",
+  "HiddenCosmeticSlots": [
+    "Haircut",
+    "Ears",
+    "Face"
+  ],
+  "Appearance": {
+    "Type": "Variant",
+    "Variants": {
+      "Goblin": {
+        "Properties": {
+          "Translation": {
+            "Name": "Goblin"
+          },
+          "Icon": "Icons/Wardrobe/Cosmetics/BodyCharacteristic/Example_BodyCharacteristic_Kweebec.png"
+        },
+        "Model": "Goblin",
+        "TextureConfig": {
+          "Texture": "NPC/Intelligent/Goblin/Models/Model_Textures/Muddy.png"
+        }
+      }
+    }
+  }
+}

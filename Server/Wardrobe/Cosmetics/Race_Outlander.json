@@ -1,0 +1,44 @@
+{
+  "Type": "PlayerModel",
+  "Properties": {
+    "Translation": {
+      "Name": "example.Example_BodyCharacteristic_Kweebec.name"
+    },
+    "Icon": "Icons/Wardrobe/Cosmetics/BodyCharacteristic/Example_BodyCharacteristic_Kweebec.png"
+  },
+  "CosmeticSlot": "BodyCharacteristic",
+  "HiddenCosmeticSlots": [
+    "Haircut",
+    "Ears",
+    "Face"
+  ],
+  "Appearance": {
+    "Type": "Variant",
+    "Variants": {
+      "Outlander": {
+        "Properties": {
+          "Translation": {
+            "Name": "Outlander"
+          },
+          "Icon": "Icons/Wardrobe/Cosmetics/BodyCharacteristic/Example_BodyCharacteristic_Kweebec.png"
+        },
+        "Model": "Outlander",
+        "TextureConfig": {
+          "Texture": "Characters/Player_Textures/Outlander_1.png"
+        }
+      },
+      "Outlander_Brute": {
+        "Properties": {
+          "Translation": {
+            "Name": "Outlander_Brute"
+          },
+          "Icon": "Icons/Wardrobe/Cosmetics/BodyCharacteristic/Example_BodyCharacteristic_Kweebec.png"
+        },
+        "Model": "Outlander_Brute",
+        "TextureConfig": {
+          "Texture": "NPC/Intelligent/Outlander_Brute/Models/Texture.png"
+        }
+      }
+    }
+  }
+}

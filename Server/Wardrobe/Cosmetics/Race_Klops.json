@@ -1,0 +1,34 @@
+{
+  "Type": "PlayerModel",
+  "Properties": {
+    "Translation": {
+      "Name": "example.Example_BodyCharacteristic_Kweebec.name"
+    },
+    "Icon": "Icons/Wardrobe/Cosmetics/BodyCharacteristic/Example_BodyCharacteristic_Kweebec.png"
+  },
+  "CosmeticSlot": "BodyCharacteristic",
+  "HiddenCosmeticSlots": [
+    "Haircut",
+    "Ears",
+    "Face",
+    "Eyes",
+    "Mouth"
+  ],
+  "Appearance": {
+    "Type": "Variant",
+    "Variants": {
+      "Klops": {
+        "Properties": {
+          "Translation": {
+            "Name": "Klops"
+          },
+          "Icon": "Icons/Wardrobe/Cosmetics/BodyCharacteristic/Example_BodyCharacteristic_Kweebec.png"
+        },
+        "Model": "Klops",
+        "TextureConfig": {
+          "Texture": "NPC/Intelligent/Klops/Models/Model_default.png"
+        }
+      }
+    }
+  }
+}

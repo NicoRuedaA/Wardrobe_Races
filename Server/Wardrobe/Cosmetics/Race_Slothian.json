@@ -1,0 +1,56 @@
+{
+  "Type": "PlayerModel",
+  "Properties": {
+    "Translation": {
+      "Name": "example.Example_BodyCharacteristic_Kweebec.name"
+    },
+    "Icon": "Icons/Wardrobe/Cosmetics/BodyCharacteristic/Example_BodyCharacteristic_Kweebec.png"
+  },
+  "CosmeticSlot": "BodyCharacteristic",
+  "HiddenCosmeticSlots": [
+    "Haircut",
+    "Ears",
+    "Face"
+  ],
+  "Appearance": {
+    "Type": "Variant",
+    "Variants": {
+      "Slothian": {
+        "Properties": {
+          "Translation": {
+            "Name": "Slothian"
+          },
+          "Icon": "Icons/Wardrobe/Cosmetics/BodyCharacteristic/Example_BodyCharacteristic_Kweebec.png"
+        },
+        "Model": "Slothian",
+        "TextureConfig": {
+          "Texture": "NPC/Intelligent/Slothian/Models/Gray_Texture.png"
+        }
+      },
+      "Slothian_Elder": {
+        "Properties": {
+          "Translation": {
+            "Name": "Slothian_Elder"
+          },
+          "Icon": "Icons/Wardrobe/Cosmetics/BodyCharacteristic/Example_BodyCharacteristic_Kweebec.png"
+        },
+        "Model": "Slothian_Elder",
+        "TextureConfig": {
+          "Texture": "NPC/Intelligent/Slothian_Elder/Models/Texture.png"
+        }
+      },
+      "Slothian_Kid": {
+        "Properties": {
+          "Translation": {
+            "Name": "Slothian"
+          },
+          "Icon": "Icons/Wardrobe/Cosmetics/BodyCharacteristic/Example_BodyCharacteristic_Kweebec.png"
+        },
+        "Model": "Slothian_Kid",
+        "TextureConfig": {
+          "Texture": "NPC/Intelligent/Slothian_Kid/Models/Texture.png"
+        }
+      }
+    }
+  }
+}
