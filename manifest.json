@@ -1,16 +1,16 @@
 {
   "Group": "NicoRueda",
-  "Name": "Wardrobe_Races",
-  "Version": "1.0.1",
+  "Name": "Races Wardrobe",
+  "Version": "1.0.2",
   "Description": "",
   "Authors": [
     {
       "Name": "NicoRueda",
       "Email": "nico99rueda@gmail.com",
-      "Url": ""
+      "Url": "nicorueda.dev"
     }
   ],
-  "Website": "https://nicorueda.dev/",
+  "Website": "nicorueda.dev",
   "Dependencies": {},
   "OptionalDependencies": {},
   "LoadBefore": {},

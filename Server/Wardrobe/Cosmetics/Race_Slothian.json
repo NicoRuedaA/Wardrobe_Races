@@ -3,8 +3,7 @@
   "Properties": {
     "Translation": {
       "Name": "example.Example_BodyCharacteristic_Kweebec.name"
-    },
-    "Icon": "Icons/Wardrobe/Cosmetics/BodyCharacteristic/Example_BodyCharacteristic_Kweebec.png"
+    }
   },
   "CosmeticSlot": "BodyCharacteristic",
   "HiddenCosmeticSlots": [
@@ -19,20 +18,64 @@
         "Properties": {
           "Translation": {
             "Name": "Slothian"
-          },
-          "Icon": "Icons/Wardrobe/Cosmetics/BodyCharacteristic/Example_BodyCharacteristic_Kweebec.png"
+          }
         },
         "Model": "Slothian",
         "TextureConfig": {
-          "Texture": "NPC/Intelligent/Slothian/Models/Gray_Texture.png"
+          "Type": "Variant",
+          "Variants": {
+            "Gray": {
+              "Properties": {
+                "Translation": {
+                  "Name": "Gray"
+                }
+              },
+              "Texture": "NPC/Intelligent/Slothian/Models/Gray_Texture.png",
+              "WardrobeColor": [
+                "#D0D0D4"
+              ]
+            },
+            "Red": {
+              "Properties": {
+                "Translation": {
+                  "Name": "Red"
+                }
+              },
+              "Texture": "NPC/Intelligent/Slothian/Models/Red_Texture.png",
+              "WardrobeColor": [
+                "#8B3F1A"
+              ]
+            },
+            "Brown": {
+              "Properties": {
+                "Translation": {
+                  "Name": "Brown"
+                }
+              },
+              "Texture": "NPC/Intelligent/Slothian/Models/Brown_Texture.png",
+              "WardrobeColor": [
+                "#58483E"
+              ]
+            },
+            "Blond": {
+              "Properties": {
+                "Translation": {
+                  "Name": "Blond"
+                }
+              },
+              "Texture": "NPC/Intelligent/Slothian/Models/Blond_Texture.png",
+              "WardrobeColor": [
+                "#AF9A7C"
+              ]
+            }
+          }
         }
       },
       "Slothian_Elder": {
         "Properties": {
           "Translation": {
             "Name": "Slothian_Elder"
-          },
-          "Icon": "Icons/Wardrobe/Cosmetics/BodyCharacteristic/Example_BodyCharacteristic_Kweebec.png"
+          }
         },
         "Model": "Slothian_Elder",
         "TextureConfig": {
@@ -43,8 +86,7 @@
         "Properties": {
           "Translation": {
             "Name": "Slothian"
-          },
-          "Icon": "Icons/Wardrobe/Cosmetics/BodyCharacteristic/Example_BodyCharacteristic_Kweebec.png"
+          }
         },
         "Model": "Slothian_Kid",
         "TextureConfig": {

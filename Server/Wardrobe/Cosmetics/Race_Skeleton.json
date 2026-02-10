@@ -1,0 +1,87 @@
+{
+  "Type": "PlayerModel",
+  "Properties": {
+    "Translation": {
+      "Name": "example.Example_BodyCharacteristic_Kweebec.name"
+    }
+  },
+  "CosmeticSlot": "BodyCharacteristic",
+  "HiddenCosmeticSlots": [
+    "Haircut",
+    "Ears",
+    "Face"
+  ],
+  "Appearance": {
+    "Type": "Variant",
+    "Variants": {
+      "Skeleton": {
+        "Properties": {
+          "Translation": {
+            "Name": "Skeleton"
+          }
+        },
+        "Model": "Skeleton",
+        "TextureConfig": {
+          "Type": "Variant",
+          "Variants": {
+            "Burnt_Black": {
+              "Properties": {
+                "Translation": {
+                  "Name": "Burnt_Black"
+                }
+              },
+              "Texture": "NPC/Undead/Skeleton/Models/Model_Textures/Burnt_Black.png",
+              "WardrobeColor": [
+                "#574F4F"
+              ]
+            },
+            "Burnt": {
+              "Properties": {
+                "Translation": {
+                  "Name": "Burnt"
+                }
+              },
+              "Texture": "NPC/Undead/Skeleton/Models/Model_Textures/Burnt.png",
+              "WardrobeColor": [
+                "#6B615F"
+              ]
+            },
+            "Frost": {
+              "Properties": {
+                "Translation": {
+                  "Name": "Frost"
+                }
+              },
+              "Texture": "NPC/Undead/Skeleton/Models/Model_Textures/Frost.png",
+              "WardrobeColor": [
+                "#C2E9E6"
+              ]
+            },
+            "Sand": {
+              "Properties": {
+                "Translation": {
+                  "Name": "Sand"
+                }
+              },
+              "Texture": "NPC/Undead/Skeleton/Models/Model_Textures/Sand.png",
+              "WardrobeColor": [
+                "#FAC27B"
+              ]
+            },
+            "White": {
+              "Properties": {
+                "Translation": {
+                  "Name": "White"
+                }
+              },
+              "Texture": "NPC/Undead/Skeleton/Models/Model_Textures/White.png",
+              "WardrobeColor": [
+                "#FAC27B"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

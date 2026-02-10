@@ -3,14 +3,14 @@
   "Properties": {
     "Translation": {
       "Name": "example.Example_BodyCharacteristic_Kweebec.name"
-    },
-    "Icon": "Icons/Wardrobe/Cosmetics/BodyCharacteristic/Example_BodyCharacteristic_Kweebec.png"
+    }
   },
   "CosmeticSlot": "BodyCharacteristic",
   "HiddenCosmeticSlots": [
     "Haircut",
     "Ears",
-    "Face"
+    "Face",
+    "Eyes"
   ],
   "Appearance": {
     "Type": "Variant",
@@ -19,12 +19,46 @@
         "Properties": {
           "Translation": {
             "Name": "Goblin"
-          },
-          "Icon": "Icons/Wardrobe/Cosmetics/BodyCharacteristic/Example_BodyCharacteristic_Kweebec.png"
+          }
         },
         "Model": "Goblin",
         "TextureConfig": {
-          "Texture": "NPC/Intelligent/Goblin/Models/Model_Textures/Muddy.png"
+          "Type": "Variant",
+          "Variants": {
+            "Moldy": {
+              "Properties": {
+                "Translation": {
+                  "Name": "Moldy"
+                }
+              },
+              "Texture": "NPC/Intelligent/Goblin/Models/Model_Textures/Moldy.png",
+              "WardrobeColor": [
+                "#8D943B"
+              ]
+            },
+            "Vapid": {
+              "Properties": {
+                "Translation": {
+                  "Name": "Vapid"
+                }
+              },
+              "Texture": "NPC/Intelligent/Goblin/Models/Model_Textures/Vapid.png",
+              "WardrobeColor": [
+                "#7B725D"
+              ]
+            },
+            "Muddy": {
+              "Properties": {
+                "Translation": {
+                  "Name": "Muddy"
+                }
+              },
+              "Texture": "NPC/Intelligent/Goblin/Models/Model_Textures/Muddy.png",
+              "WardrobeColor": [
+                "#7C5F29"
+              ]
+            }
+          }
         }
       }
     }
