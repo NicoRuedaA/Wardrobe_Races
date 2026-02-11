@@ -5,7 +5,7 @@
       "Name": "example.Example_BodyCharacteristic_Kweebec.name"
     }
   },
-  "CosmeticSlot": "BodyCharacteristic",
+  "CosmeticSlot": "Race_Races",
   "HiddenCosmeticSlots": [
     "Haircut",
     "Ears",
@@ -61,5 +61,6 @@
         }
       }
     }
-  }
+  },
+  "Icon": "Icons/Wardrobe/3.png"
 }

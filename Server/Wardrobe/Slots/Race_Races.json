@@ -1,0 +1,12 @@
+{
+  "Properties": {
+    "Translation": {
+      "Name": "Race_Races"
+    }
+  },
+  "CosmeticType": "BodyCharacteristics",
+  "Category": "Race_Others",
+  "SelectedIcon": "Icons/Wardrobe/1.png",
+  "Order": 1,
+  "Icon": "Icons/Wardrobe/1.png"
+}
