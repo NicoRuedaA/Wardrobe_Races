@@ -7,9 +7,8 @@
   },
   "CosmeticSlot": "Race_Races",
   "HiddenCosmeticSlots": [
-    "Haircut",
-    "Ears",
-    "Face"
+    "Face",
+    "Gloves"
   ],
   "Appearance": {
     "Type": "Variant",
@@ -95,5 +94,5 @@
       }
     }
   },
-  "Icon": "Icons/Wardrobe/10.png"
+  "Icon": "Icons/Wardrobe/race_icon_slothian.png"
 }

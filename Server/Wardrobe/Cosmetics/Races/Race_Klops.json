@@ -7,11 +7,12 @@
   },
   "CosmeticSlot": "Race_Races",
   "HiddenCosmeticSlots": [
-    "Haircut",
-    "Ears",
     "Face",
     "Eyes",
-    "Mouth"
+    "Ears",
+    "Mouth",
+    "Eyebrows",
+    "FacialHair"
   ],
   "Appearance": {
     "Type": "Variant",
@@ -53,5 +54,5 @@
       }
     }
   },
-  "Icon": "Icons/Wardrobe/6.png"
+  "Icon": "Icons/Wardrobe/race_icon_klops.png"
 }

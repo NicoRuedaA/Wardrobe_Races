@@ -5,72 +5,69 @@
       "Name": "example.Example_BodyCharacteristic_Kweebec.name"
     }
   },
-  "CosmeticSlot": "BodyCharacteristic",
+  "CosmeticSlot": "Race_Races",
   "HiddenCosmeticSlots": [
-    "Haircut",
-    "Ears",
-    "Face"
+    "Face",
+    "Eyebrows",
+    "Eyes",
+    "FaceAccessory",
+    "Undertop",
+    "Overtop",
+    "Gloves",
+    "Pants",
+    "Overpants",
+    "Shoes"
   ],
   "Appearance": {
     "Type": "Variant",
     "Variants": {
-      "Feran": {
-        "Model": "Feran",
+      "Saurian": {
         "Properties": {
           "Translation": {
-            "Name": "Feran"
+            "Name": "Saurian"
           }
         },
+        "Model": "Saurian",
         "TextureConfig": {
           "Type": "Variant",
           "Variants": {
-            "Fox": {
+            "Purple": {
               "Properties": {
                 "Translation": {
-                  "Name": "Fox"
+                  "Name": "Purple"
                 }
               },
-              "Texture": "NPC/Intelligent/Feran/Models/Model_Foxy.png",
+              "Texture": "NPC/Intelligent/Saurian/Models/Purple.png",
               "WardrobeColor": [
-                "#C35817"
+                "#30295F"
               ]
             },
-            "White": {
+            "Orange": {
               "Properties": {
                 "Translation": {
-                  "Name": "White"
+                  "Name": "Orange"
                 }
               },
-              "Texture": "NPC/Intelligent/Feran/Models/Model_White.png",
+              "Texture": "NPC/Intelligent/Saurian/Models/Orange.png",
               "WardrobeColor": [
-                "#FFFFFF"
+                "#FBC449"
               ]
             },
-            "Ginger": {
+            "Green": {
               "Properties": {
                 "Translation": {
-                  "Name": "Ginger"
+                  "Name": "Green"
                 }
               },
-              "Texture": "NPC/Intelligent/Feran/Models/Model_Ginger.png",
+              "Texture": "NPC/Intelligent/Saurian/Models/Green.png",
               "WardrobeColor": [
-                "#B06500"
+                "#7DA944"
               ]
             }
           }
         }
-      },
-      "Feran_Cub": {
-        "Properties": {
-          "Translation": {
-            "Name": "Feran_Cub"
-          }
-        },
-        "Model": "Feran_Cub",
-        "TextureConfig": {
-          "Texture": "NPC/Intelligent/Feran_Cub/Models/Texture.png"
-        }
       }
     }
-  }
+  },
+  "Icon": "Icons/Wardrobe/race_icon_saurians.png"
 }

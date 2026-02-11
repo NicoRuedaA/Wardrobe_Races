@@ -7,8 +7,6 @@
   },
   "CosmeticSlot": "Race_Races",
   "HiddenCosmeticSlots": [
-    "Haircut",
-    "Ears",
     "Face"
   ],
   "Appearance": {
@@ -84,5 +82,5 @@
       }
     }
   },
-  "Icon": "Icons/Wardrobe/2.png"
+  "Icon": "Icons/Wardrobe/race_icon_skeleton.png"
 }

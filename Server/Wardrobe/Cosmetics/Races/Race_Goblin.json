@@ -7,54 +7,55 @@
   },
   "CosmeticSlot": "Race_Races",
   "HiddenCosmeticSlots": [
-    "Haircut",
+    "Face",
+    "Eyes",
     "Ears",
-    "Face"
+    "Gloves"
   ],
   "Appearance": {
     "Type": "Variant",
     "Variants": {
-      "Saurian": {
+      "Goblin": {
         "Properties": {
           "Translation": {
-            "Name": "Saurian"
+            "Name": "Goblin"
           }
         },
-        "Model": "Saurian",
+        "Model": "Goblin",
         "TextureConfig": {
           "Type": "Variant",
           "Variants": {
-            "Purple": {
+            "Moldy": {
               "Properties": {
                 "Translation": {
-                  "Name": "Purple"
+                  "Name": "Moldy"
                 }
               },
-              "Texture": "NPC/Intelligent/Saurian/Models/Purple.png",
+              "Texture": "NPC/Intelligent/Goblin/Models/Model_Textures/Moldy.png",
               "WardrobeColor": [
-                "#30295F"
+                "#8D943B"
               ]
             },
-            "Orange": {
+            "Vapid": {
               "Properties": {
                 "Translation": {
-                  "Name": "Orange"
+                  "Name": "Vapid"
                 }
               },
-              "Texture": "NPC/Intelligent/Saurian/Models/Orange.png",
+              "Texture": "NPC/Intelligent/Goblin/Models/Model_Textures/Vapid.png",
               "WardrobeColor": [
-                "#FBC449"
+                "#7B725D"
               ]
             },
-            "Green": {
+            "Muddy": {
               "Properties": {
                 "Translation": {
-                  "Name": "Green"
+                  "Name": "Muddy"
                 }
               },
-              "Texture": "NPC/Intelligent/Saurian/Models/Green.png",
+              "Texture": "NPC/Intelligent/Goblin/Models/Model_Textures/Muddy.png",
               "WardrobeColor": [
-                "#7DA944"
+                "#7C5F29"
               ]
             }
           }
@@ -62,5 +63,5 @@
       }
     }
   },
-  "Icon": "Icons/Wardrobe/3.png"
+  "Icon": "Icons/Wardrobe/race_icon_goblin.png"
 }

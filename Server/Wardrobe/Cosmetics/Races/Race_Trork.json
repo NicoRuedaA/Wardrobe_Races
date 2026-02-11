@@ -7,9 +7,10 @@
   },
   "CosmeticSlot": "Race_Races",
   "HiddenCosmeticSlots": [
-    "Haircut",
-    "Ears",
-    "Face"
+    "Face",
+    "Pants",
+    "Overpants",
+    "Shoes"
   ],
   "Appearance": {
     "Type": "Variant",
@@ -117,5 +118,5 @@
       }
     }
   },
-  "Icon": "Icons/Wardrobe/11.png"
+  "Icon": "Icons/Wardrobe/race_icon_trork.png"
 }

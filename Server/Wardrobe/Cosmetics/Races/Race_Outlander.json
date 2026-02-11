@@ -7,8 +7,6 @@
   },
   "CosmeticSlot": "Race_Races",
   "HiddenCosmeticSlots": [
-    "Haircut",
-    "Ears",
     "Face"
   ],
   "Appearance": {
@@ -38,5 +36,5 @@
       }
     }
   },
-  "Icon": "Icons/Wardrobe/4.png"
+  "Icon": "Icons/Wardrobe/race_icon_outlander.png"
 }

@@ -7,9 +7,8 @@
   },
   "CosmeticSlot": "Race_Races",
   "HiddenCosmeticSlots": [
-    "Haircut",
-    "Ears",
-    "Face"
+    "Face",
+    "Ears"
   ],
   "Appearance": {
     "Type": "Variant",
@@ -73,5 +72,5 @@
       }
     }
   },
-  "Icon": "Icons/Wardrobe/9.png"
+  "Icon": "Icons/Wardrobe/race_icon_ferran.png"
 }

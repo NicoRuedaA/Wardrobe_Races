@@ -7,9 +7,10 @@
   },
   "CosmeticSlot": "Race_Races",
   "HiddenCosmeticSlots": [
-    "Haircut",
+    "Face",
     "Ears",
-    "Face"
+    "Hair",
+    "Shoes"
   ],
   "Appearance": {
     "Type": "Variant",
@@ -163,5 +164,5 @@
       }
     }
   },
-  "Icon": "Icons/Wardrobe/8.png"
+  "Icon": "Icons/Wardrobe/race_icon_kweebec.png"
 }

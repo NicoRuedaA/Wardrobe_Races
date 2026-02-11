@@ -6,7 +6,7 @@
   },
   "CosmeticType": "BodyCharacteristics",
   "Category": "Race_Others",
-  "SelectedIcon": "Icons/Wardrobe/1.png",
+  "SelectedIcon": "Icons/Wardrobe/race_icon_races_selected.png",
   "Order": 1,
-  "Icon": "Icons/Wardrobe/1.png"
+  "Icon": "Icons/Wardrobe/race_icon_races.png"
 }
