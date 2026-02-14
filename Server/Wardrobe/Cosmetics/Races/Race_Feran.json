@@ -2,19 +2,20 @@
   "Type": "PlayerModel",
   "Properties": {
     "Translation": {
-      "Name": "example.Example_BodyCharacteristic_Kweebec.name"
+      "Name": "Feran"
     }
   },
   "CosmeticSlot": "Race_Races",
   "HiddenCosmeticSlots": [
     "Face",
-    "Ears"
+    "Ears",
+    "Mouth"
   ],
   "Appearance": {
     "Type": "Variant",
     "Variants": {
       "Feran": {
-        "Model": "Feran",
+        "Model": "Race_Feran",
         "Properties": {
           "Translation": {
             "Name": "Feran"
@@ -62,10 +63,10 @@
       "Feran_Cub": {
         "Properties": {
           "Translation": {
-            "Name": "Feran_Cub"
+            "Name": "Feran Cub"
           }
         },
-        "Model": "Feran_Cub",
+        "Model": "Race_Feran_Cub",
         "TextureConfig": {
           "Texture": "NPC/Intelligent/Feran_Cub/Models/Texture.png"
         }

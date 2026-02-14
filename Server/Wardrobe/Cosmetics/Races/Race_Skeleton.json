@@ -2,12 +2,13 @@
   "Type": "PlayerModel",
   "Properties": {
     "Translation": {
-      "Name": "example.Example_BodyCharacteristic_Kweebec.name"
+      "Name": "Skeleton"
     }
   },
   "CosmeticSlot": "Race_Races",
   "HiddenCosmeticSlots": [
-    "Face"
+    "Face",
+    "Ears"
   ],
   "Appearance": {
     "Type": "Variant",

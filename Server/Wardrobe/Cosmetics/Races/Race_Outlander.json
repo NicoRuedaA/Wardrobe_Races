@@ -2,7 +2,7 @@
   "Type": "PlayerModel",
   "Properties": {
     "Translation": {
-      "Name": "example.Example_BodyCharacteristic_Kweebec.name"
+      "Name": "Outlander"
     }
   },
   "CosmeticSlot": "Race_Races",
@@ -26,7 +26,7 @@
       "Outlander_Brute": {
         "Properties": {
           "Translation": {
-            "Name": "Outlander_Brute"
+            "Name": "Outlander Brute"
           }
         },
         "Model": "Outlander_Brute",

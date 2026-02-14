@@ -2,15 +2,14 @@
   "Type": "PlayerModel",
   "Properties": {
     "Translation": {
-      "Name": "example.Example_BodyCharacteristic_Kweebec.name"
+      "Name": "Goblin"
     }
   },
   "CosmeticSlot": "Race_Races",
   "HiddenCosmeticSlots": [
     "Face",
     "Eyes",
-    "Ears",
-    "Gloves"
+    "Ears"
   ],
   "Appearance": {
     "Type": "Variant",
@@ -21,7 +20,7 @@
             "Name": "Goblin"
           }
         },
-        "Model": "Goblin",
+        "Model": "Race_Goblin",
         "TextureConfig": {
           "Type": "Variant",
           "Variants": {

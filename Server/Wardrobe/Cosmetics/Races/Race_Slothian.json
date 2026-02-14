@@ -2,12 +2,13 @@
   "Type": "PlayerModel",
   "Properties": {
     "Translation": {
-      "Name": "example.Example_BodyCharacteristic_Kweebec.name"
+      "Name": "Slothian"
     }
   },
   "CosmeticSlot": "Race_Races",
   "HiddenCosmeticSlots": [
     "Face",
+    "Ears",
     "Gloves"
   ],
   "Appearance": {
@@ -16,10 +17,10 @@
       "Slothian": {
         "Properties": {
           "Translation": {
-            "Name": "Slothian"
+            "Name": "Race_Slothian"
           }
         },
-        "Model": "Slothian",
+        "Model": "Race_Slothian",
         "TextureConfig": {
           "Type": "Variant",
           "Variants": {
@@ -73,10 +74,10 @@
       "Slothian_Elder": {
         "Properties": {
           "Translation": {
-            "Name": "Slothian_Elder"
+            "Name": "Slothian Elder"
           }
         },
-        "Model": "Slothian_Elder",
+        "Model": "Race_Slothian_Elder",
         "TextureConfig": {
           "Texture": "NPC/Intelligent/Slothian_Elder/Models/Texture.png"
         }
@@ -84,10 +85,10 @@
       "Slothian_Kid": {
         "Properties": {
           "Translation": {
-            "Name": "Slothian"
+            "Name": "Slothian Kid"
           }
         },
-        "Model": "Slothian_Kid",
+        "Model": "Race_Slothian_Kid",
         "TextureConfig": {
           "Texture": "NPC/Intelligent/Slothian_Kid/Models/Texture.png"
         }

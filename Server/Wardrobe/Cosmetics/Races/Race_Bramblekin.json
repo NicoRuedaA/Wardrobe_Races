@@ -2,16 +2,13 @@
   "Type": "PlayerModel",
   "Properties": {
     "Translation": {
-      "Name": "example.Example_BodyCharacteristic_Kweebec.name"
+      "Name": "Bramblekin"
     }
   },
   "CosmeticSlot": "Race_Races",
   "HiddenCosmeticSlots": [
     "Face",
-    "Ears",
-    "Eyebrows",
-    "Eyes",
-    "FaceAccessory"
+    "Eyes"
   ],
   "Appearance": {
     "Type": "Variant",
@@ -22,9 +19,55 @@
             "Name": "Bramblekin"
           }
         },
-        "Model": "Bramblekin",
+        "Model": "Race_Bramblekin",
         "TextureConfig": {
-          "Texture": "NPC/Intelligent/Bramblekin/Models/Texture.png"
+          "Type": "Variant",
+          "Variants": {
+            "Brown": {
+              "Properties": {
+                "Translation": {
+                  "Name": "Brown"
+                }
+              },
+              "Texture": "NPC/Intelligent/Bramblekin/Models/Texture.png",
+              "WardrobeColor": [
+                "#633a34"
+              ]
+            },
+            "Red": {
+              "Properties": {
+                "Translation": {
+                  "Name": "Red"
+                }
+              },
+              "Texture": "Characters/Races/Bramblekin/Textures/NicoRueda_Races_Bramblekin_RedTexture.png",
+              "WardrobeColor": [
+                "#e1621d"
+              ]
+            },
+            "Gray": {
+              "Properties": {
+                "Translation": {
+                  "Name": "Gray"
+                }
+              },
+              "Texture": "Characters/Races/Bramblekin/Textures/NicoRueda_Races_Bramblekin_GrayTexture.png",
+              "WardrobeColor": [
+                "#999999"
+              ]
+            },
+            "Golden": {
+              "Properties": {
+                "Translation": {
+                  "Name": "Golden"
+                }
+              },
+              "Texture": "Characters/Races/Bramblekin/Textures/NicoRueda_Races_Bramblekin_GoldenTexture.png",
+              "WardrobeColor": [
+                "#f1c232"
+              ]
+            }
+          }
         }
       }
     }

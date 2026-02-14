@@ -2,12 +2,13 @@
   "Type": "PlayerModel",
   "Properties": {
     "Translation": {
-      "Name": "example.Example_BodyCharacteristic_Kweebec.name"
+      "Name": "Tuluk"
     }
   },
   "CosmeticSlot": "Race_Races",
   "HiddenCosmeticSlots": [
     "Face",
+    "Ears",
     "Undertop",
     "Gloves ",
     "Overtop",
@@ -26,7 +27,53 @@
         },
         "Model": "Tuluk",
         "TextureConfig": {
-          "Texture": "NPC/Intelligent/Tuluk/Models/Model_Brown.png"
+          "Type": "Variant",
+          "Variants": {
+            "Brown": {
+              "Properties": {
+                "Translation": {
+                  "Name": "Brown"
+                }
+              },
+              "Texture": "NPC/Intelligent/Tuluk/Models/Model_Brown.png",
+              "WardrobeColor": [
+                "#633a34"
+              ]
+            },
+            "Cyan": {
+              "Properties": {
+                "Translation": {
+                  "Name": "Cyan"
+                }
+              },
+              "Texture": "Characters/Races/Tuluk/Textures/NicoRueda_Races_Tuluk_CyanTexture.png",
+              "WardrobeColor": [
+                "#00FFFF"
+              ]
+            },
+            "Gray": {
+              "Properties": {
+                "Translation": {
+                  "Name": "Gray"
+                }
+              },
+              "Texture": "Characters/Races/Tuluk/Textures/NicoRueda_Races_Tuluk_GrayTexture.png",
+              "WardrobeColor": [
+                "#999999"
+              ]
+            },
+            "Golden": {
+              "Properties": {
+                "Translation": {
+                  "Name": "Golden"
+                }
+              },
+              "Texture": "Characters/Races/Tuluk/Textures/NicoRueda_Races_Tuluk_GoldenTexture.png",
+              "WardrobeColor": [
+                "#f1c232"
+              ]
+            }
+          }
         }
       }
     }

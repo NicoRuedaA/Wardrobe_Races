@@ -2,7 +2,7 @@
   "Type": "PlayerModel",
   "Properties": {
     "Translation": {
-      "Name": "example.Example_BodyCharacteristic_Kweebec.name"
+      "Name": "Kweebec_Rootling"
     }
   },
   "CosmeticSlot": "Race_Races",
@@ -21,18 +21,7 @@
             "Name": "Rootling"
           }
         },
-        "Model": "Kweebec_Rootling",
-        "TextureConfig": {
-          "Texture": "NPC/Intelligent/Kweebec_Rootling/Kweebec_Rootling.png"
-        }
-      },
-      "Sapling": {
-        "Properties": {
-          "Translation": {
-            "Name": "Sapling"
-          }
-        },
-        "Model": "Kweebec_Sapling",
+        "Model": "Race_Kweebec",
         "TextureConfig": {
           "Type": "Variant",
           "Variants": {
@@ -42,127 +31,106 @@
                   "Name": "Brown"
                 }
               },
-              "Texture": "NPC/Intelligent/Kweebec_Sapling/Models/Model_Textures/Brown.png",
+              "Texture": "NPC/Intelligent/Kweebec_Rootling/Kweebec_Rootling.png",
               "WardrobeColor": [
-                "#5C3827"
+                "#7e5007"
               ]
             },
-            "Brown_Dark": {
+            "Dark_Brown": {
               "Properties": {
                 "Translation": {
-                  "Name": "Brown_Dark"
+                  "Name": "Dark_Brown"
                 }
               },
-              "Texture": "NPC/Intelligent/Kweebec_Sapling/Models/Model_Textures/Brown_Dark.png",
+              "Texture": "Characters/Races/Kweebec/Rootling/Textures/NicoRueda_Races_Kweebec_Rootling_DarkBrownTexture.png",
               "WardrobeColor": [
-                "#3D2219"
+                "#34250c"
               ]
             },
-            "Green": {
+            "Gray": {
               "Properties": {
                 "Translation": {
-                  "Name": "Green"
+                  "Name": "Gray"
                 }
               },
-              "Texture": "NPC/Intelligent/Kweebec_Sapling/Models/Model_Textures/Green.png",
+              "Texture": "Characters/Races/Kweebec/Rootling/Textures/NicoRueda_Races_Kweebec_Rootling_Gray.png",
               "WardrobeColor": [
-                "#4F8770"
+                "#5b5b5b"
               ]
             },
-            "Red": {
+            "White": {
               "Properties": {
                 "Translation": {
-                  "Name": "Red"
+                  "Name": "White"
                 }
               },
-              "Texture": "NPC/Intelligent/Kweebec_Sapling/Models/Model_Textures/Red.png",
+              "Texture": "Characters/Races/Kweebec/Rootling/Textures/NicoRueda_Races_Kweebec_Rootling_WhiteTexture.png",
               "WardrobeColor": [
-                "#78231A"
-              ]
-            },
-            "Pink": {
-              "Properties": {
-                "Translation": {
-                  "Name": "Pink"
-                }
-              },
-              "Texture": "NPC/Intelligent/Kweebec_Sapling/Models/Model_Textures/Pink.png",
-              "WardrobeColor": [
-                "#9A2F27"
-              ]
-            },
-            "Yellow": {
-              "Properties": {
-                "Translation": {
-                  "Name": "Yellow"
-                }
-              },
-              "Texture": "NPC/Intelligent/Kweebec_Sapling/Models/Model_Textures/Yellow.png",
-              "WardrobeColor": [
-                "#AE4A1D"
-              ]
-            },
-            "Orange": {
-              "Properties": {
-                "Translation": {
-                  "Name": "Orange"
-                }
-              },
-              "Texture": "NPC/Intelligent/Kweebec_Sapling/Models/Model_Textures/Orange.png",
-              "WardrobeColor": [
-                "#98351D"
+                "#eeeeee"
               ]
             }
           }
         }
       },
-      "Sproutling": {
+      "Rootling_Variant": {
         "Properties": {
           "Translation": {
-            "Name": "Sproutling"
+            "Name": "Rootling Variant"
           }
         },
-        "Model": "Kweebec_Sproutling",
+        "Model": "Kweebec_Rootling_Variant",
         "TextureConfig": {
           "Type": "Variant",
           "Variants": {
-            "Lime": {
+            "Brown": {
               "Properties": {
                 "Translation": {
-                  "Name": "Lime"
+                  "Name": "Brown"
                 }
               },
-              "Texture": "NPC/Intelligent/Kweebec_Sproutling/Models/Model_Textures/Lime.png",
+              "Texture": "NPC/Intelligent/Kweebec_Rootling/Kweebec_Rootling.png",
               "WardrobeColor": [
-                "#838330"
+                "#7e5007"
               ]
             },
-            "Blue": {
+            "Dark_Brown": {
               "Properties": {
                 "Translation": {
-                  "Name": "Blue"
+                  "Name": "Dark_Brown"
                 }
               },
-              "Texture": "NPC/Intelligent/Kweebec_Sproutling/Models/Model_Textures/Blue.png",
+              "Texture": "Characters/Races/Kweebec/Rootling/Textures/NicoRueda_Races_Kweebec_Rootling_DarkBrownTexture.png",
               "WardrobeColor": [
-                "#36745B"
+                "#34250c"
               ]
             },
-            "Green": {
+            "Gray": {
               "Properties": {
                 "Translation": {
-                  "Name": "Green"
+                  "Name": "Gray"
                 }
               },
-              "Texture": "NPC/Intelligent/Kweebec_Sproutling/Models/Model_Textures/Green.png",
+              "Texture": "Characters/Races/Kweebec/Rootling/Textures/NicoRueda_Races_Kweebec_Rootling_Gray.png",
               "WardrobeColor": [
-                "#5E7042"
+                "#5b5b5b"
+              ]
+            },
+            "White": {
+              "Properties": {
+                "Translation": {
+                  "Name": "White"
+                }
+              },
+              "Texture": "Characters/Races/Kweebec/Rootling/Textures/NicoRueda_Races_Kweebec_Rootling_WhiteTexture.png",
+              "WardrobeColor": [
+                "#eeeeee"
               ]
             }
           }
         }
       }
-    }
+    },
+    "Icon": "Icons/Wardrobe/race_icon_kweebec.png"
   },
   "Icon": "Icons/Wardrobe/race_icon_kweebec.png"
 }

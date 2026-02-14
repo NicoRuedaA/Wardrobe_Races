@@ -2,7 +2,7 @@
   "Type": "PlayerModel",
   "Properties": {
     "Translation": {
-      "Name": "example.Example_BodyCharacteristic_Kweebec.name"
+      "Name": "Klops"
     }
   },
   "CosmeticSlot": "Race_Races",
@@ -23,7 +23,7 @@
             "Name": "Klops"
           }
         },
-        "Model": "Klops",
+        "Model": "Race_Klops",
         "TextureConfig": {
           "Type": "Variant",
           "Variants": {

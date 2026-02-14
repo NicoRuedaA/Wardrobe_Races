@@ -2,12 +2,13 @@
   "Type": "PlayerModel",
   "Properties": {
     "Translation": {
-      "Name": "example.Example_BodyCharacteristic_Kweebec.name"
+      "Name": "Trork"
     }
   },
   "CosmeticSlot": "Race_Races",
   "HiddenCosmeticSlots": [
     "Face",
+    "Ears",
     "Pants",
     "Overpants",
     "Shoes"
@@ -18,10 +19,10 @@
       "Trork": {
         "Properties": {
           "Translation": {
-            "Name": "Trork"
+            "Name": "Race_Trork"
           }
         },
-        "Model": "Trork",
+        "Model": "Race_Trork",
         "TextureConfig": {
           "Type": "Variant",
           "Variants": {
