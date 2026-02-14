@@ -1,0 +1,48 @@
+{
+  "Type": "PlayerModel",
+  "Properties": {
+    "Translation": {
+      "Name": "Zombie"
+    }
+  },
+  "CosmeticSlot": "Race_Races",
+  "HiddenCosmeticSlots": [
+    "Face",
+    "Ears",
+    "Eyes",
+    "EarAccessory",
+    "Overtop",
+    "FacialHair",
+    "Gloves",
+    "Mouth"
+  ],
+  "Appearance": {
+    "Type": "Variant",
+    "Variants": {
+      "Bramblekin": {
+        "Properties": {
+          "Translation": {
+            "Name": "Swamp Creature"
+          }
+        },
+        "Model": "Race_Swamp_Creature",
+        "TextureConfig": {
+          "Type": "Variant",
+          "Variants": {
+            "Brown": {
+              "Properties": {
+                "Translation": {
+                  "Name": "Brown"
+                }
+              },
+              "Texture": "NPC/Swimming_Beast/Fen_Stalker/Models/Texture.png",
+              "WardrobeColor": [
+                "#008000"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

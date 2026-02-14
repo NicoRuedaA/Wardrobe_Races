@@ -1,0 +1,46 @@
+{
+  "Type": "PlayerModel",
+  "Properties": {
+    "Translation": {
+      "Name": "Zombie"
+    }
+  },
+  "CosmeticSlot": "Race_Races",
+  "HiddenCosmeticSlots": [
+    "Face",
+    "Ears",
+    "EarAccessory",
+    "FacialHair",
+    "Mouth",
+    "Gloves"
+  ],
+  "Appearance": {
+    "Type": "Variant",
+    "Variants": {
+      "Bramblekin": {
+        "Properties": {
+          "Translation": {
+            "Name": "Zomie"
+          }
+        },
+        "Model": "Race_Zombie",
+        "TextureConfig": {
+          "Type": "Variant",
+          "Variants": {
+            "Brown": {
+              "Properties": {
+                "Translation": {
+                  "Name": "Brown"
+                }
+              },
+              "Texture": "NPC/Undead/Zombie/Models/Zombie.png",
+              "WardrobeColor": [
+                "#008000"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

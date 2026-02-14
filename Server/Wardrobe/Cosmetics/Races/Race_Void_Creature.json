@@ -1,0 +1,48 @@
+{
+  "Type": "PlayerModel",
+  "Properties": {
+    "Translation": {
+      "Name": "Zombie"
+    }
+  },
+  "CosmeticSlot": "Race_Races",
+  "HiddenCosmeticSlots": [
+    "Face",
+    "Eyes",
+    "Ears",
+    "EarAccessory",
+    "FacialHair",
+    "Gloves",
+    "Pants",
+    "Shoes"
+  ],
+  "Appearance": {
+    "Type": "Variant",
+    "Variants": {
+      "Bramblekin": {
+        "Properties": {
+          "Translation": {
+            "Name": "Void Creature"
+          }
+        },
+        "Model": "Race_Void_Creature",
+        "TextureConfig": {
+          "Type": "Variant",
+          "Variants": {
+            "Brown": {
+              "Properties": {
+                "Translation": {
+                  "Name": "Brown"
+                }
+              },
+              "Texture": "NPC/Void/Necromancer_Void/Models/Model_Texture.png",
+              "WardrobeColor": [
+                "#800080"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}
