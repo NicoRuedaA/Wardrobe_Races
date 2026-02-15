@@ -10,7 +10,6 @@
     "Face",
     "Ears",
     "Eyes",
-    "EarAccessory",
     "Overtop",
     "FacialHair",
     "Gloves",
@@ -29,20 +28,65 @@
         "TextureConfig": {
           "Type": "Variant",
           "Variants": {
-            "Brown": {
+            "Green": {
               "Properties": {
                 "Translation": {
-                  "Name": "Brown"
+                  "Name": "Green"
                 }
               },
               "Texture": "NPC/Swimming_Beast/Fen_Stalker/Models/Texture.png",
               "WardrobeColor": [
                 "#008000"
               ]
+            },
+            "Pink": {
+              "Properties": {
+                "Translation": {
+                  "Name": "Pink"
+                }
+              },
+              "Texture": "Characters/Races/Swamp_Creature/Texutres/NicoRueda_Races_Swamp_Creature_Pink.png",
+              "WardrobeColor": [
+                "#FFC0CB"
+              ]
+            },
+            "Cyan": {
+              "Properties": {
+                "Translation": {
+                  "Name": "Cyan"
+                }
+              },
+              "Texture": "Characters/Races/Swamp_Creature/Texutres/NicoRueda_Races_Swamp_Creature_Cyan.png",
+              "WardrobeColor": [
+                "#00FFFF"
+              ]
+            },
+            "Red": {
+              "Properties": {
+                "Translation": {
+                  "Name": "Red"
+                }
+              },
+              "Texture": "Characters/Races/Swamp_Creature/Texutres/NicoRueda_Races_Swamp_Creature_Red.png",
+              "WardrobeColor": [
+                "#ff0000"
+              ]
+            },
+            "Yellow": {
+              "Properties": {
+                "Translation": {
+                  "Name": "Yellow"
+                }
+              },
+              "Texture": "Characters/Races/Swamp_Creature/Texutres/NicoRueda_Races_Swamp_Creature_Yellow.png",
+              "WardrobeColor": [
+                "#FFFF00"
+              ]
             }
           }
         }
       }
     }
-  }
+  },
+  "Icon": "Icons/Wardrobe/race_icon_swamp.png"
 }

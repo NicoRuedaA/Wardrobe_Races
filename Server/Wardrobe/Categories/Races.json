@@ -1,11 +1,10 @@
 {
   "Properties": {
     "Translation": {
-      "Name": "Race_Races"
+      "Name": "Races"
     }
   },
-  "Category": "Races",
   "SelectedIcon": "Icons/Wardrobe/race_icon_races_selected.png",
-  "Order": 1,
+  "Order": 6,
   "Icon": "Icons/Wardrobe/race_icon_races.png"
 }

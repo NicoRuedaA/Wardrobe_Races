@@ -1,11 +1,11 @@
 {
   "Properties": {
     "Translation": {
-      "Name": "Race_Races"
+      "Name": "Humanoids"
     }
   },
   "Category": "Races",
   "SelectedIcon": "Icons/Wardrobe/race_icon_races_selected.png",
-  "Order": 1,
+  "Order": 2,
   "Icon": "Icons/Wardrobe/race_icon_races.png"
 }

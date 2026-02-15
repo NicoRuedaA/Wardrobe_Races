@@ -5,7 +5,7 @@
       "Name": "Outlander"
     }
   },
-  "CosmeticSlot": "Race_Races",
+  "CosmeticSlot": "Humanoids",
   "HiddenCosmeticSlots": [
     "Face"
   ],
@@ -36,5 +36,5 @@
       }
     }
   },
-  "Icon": "Icons/Wardrobe/race_icon_outlander.png"
+  "Icon": "Icons/Wardrobe/race_icon_outlander_new.png"
 }

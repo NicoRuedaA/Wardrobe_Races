@@ -5,7 +5,7 @@
       "Name": "Feran"
     }
   },
-  "CosmeticSlot": "Race_Races",
+  "CosmeticSlot": "Beasts",
   "HiddenCosmeticSlots": [
     "Face",
     "Ears",
@@ -73,5 +73,5 @@
       }
     }
   },
-  "Icon": "Icons/Wardrobe/race_icon_ferran.png"
+  "Icon": "Icons/Wardrobe/race_icon_feran.png"
 }

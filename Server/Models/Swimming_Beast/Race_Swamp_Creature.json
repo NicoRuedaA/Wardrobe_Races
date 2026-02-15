@@ -1,5 +1,5 @@
 {
-  "Model": "NPC/Swimming_Beast/Fen_Stalker/Models/Model.blockymodel",
+  "Model": "Characters/Races/Swamp_Creature/Model/Swamp_Creature.blockymodel",
   "Texture": "NPC/Swimming_Beast/Fen_Stalker/Models/Texture.png",
   "EyeHeight": 1.35,
   "HitBox": {

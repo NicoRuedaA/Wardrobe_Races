@@ -27,20 +27,87 @@
         "TextureConfig": {
           "Type": "Variant",
           "Variants": {
-            "Brown": {
+            "Green": {
               "Properties": {
                 "Translation": {
-                  "Name": "Brown"
+                  "Name": "Green"
                 }
               },
               "Texture": "NPC/Undead/Zombie/Models/Zombie.png",
               "WardrobeColor": [
                 "#008000"
               ]
+            },
+            "Brown": {
+              "Properties": {
+                "Translation": {
+                  "Name": "Brown"
+                }
+              },
+              "Texture": "NPC/Undead/Zombie/Models/Zombie_Brown.png",
+              "WardrobeColor": [
+                "#CD7F32"
+              ]
+            },
+            "Burnt": {
+              "Properties": {
+                "Translation": {
+                  "Name": "Burnt"
+                }
+              },
+              "Texture": "NPC/Undead/Zombie/Models/Zombie_Burnt.png",
+              "WardrobeColor": [
+                "#E97451"
+              ]
+            },
+            "Frost": {
+              "Properties": {
+                "Translation": {
+                  "Name": "Frost"
+                }
+              },
+              "Texture": "NPC/Undead/Zombie/Models/Zombie_Frost.png",
+              "WardrobeColor": [
+                "#EDF5DD"
+              ]
+            },
+            "Moldy": {
+              "Properties": {
+                "Translation": {
+                  "Name": "Moldy"
+                }
+              },
+              "Texture": "NPC/Undead/Zombie/Models/Zombie_Moldy.png",
+              "WardrobeColor": [
+                "#C5C591"
+              ]
+            },
+            "Pale": {
+              "Properties": {
+                "Translation": {
+                  "Name": "Pale"
+                }
+              },
+              "Texture": "NPC/Undead/Zombie/Models/Zombie_Pale.png",
+              "WardrobeColor": [
+                "#EDEADE"
+              ]
+            },
+            "Sand": {
+              "Properties": {
+                "Translation": {
+                  "Name": "Sand"
+                }
+              },
+              "Texture": "NPC/Undead/Zombie/Models/Zombie_Sand.png",
+              "WardrobeColor": [
+                "#C2B280"
+              ]
             }
           }
         }
       }
     }
-  }
+  },
+  "Icon": "Icons/Wardrobe/race_icon_zombie.png"
 }

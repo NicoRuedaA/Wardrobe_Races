@@ -5,7 +5,7 @@
       "Name": "Tuluk"
     }
   },
-  "CosmeticSlot": "Race_Races",
+  "CosmeticSlot": "Beasts",
   "HiddenCosmeticSlots": [
     "Face",
     "Ears",
@@ -78,5 +78,5 @@
       }
     }
   },
-  "Icon": "Icons/Wardrobe/race_icon_tuluk.png"
+  "Icon": "Icons/Wardrobe/race_icon_tuluk_new.png"
 }

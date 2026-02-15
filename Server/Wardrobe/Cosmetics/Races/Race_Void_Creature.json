@@ -9,8 +9,6 @@
   "HiddenCosmeticSlots": [
     "Face",
     "Eyes",
-    "Ears",
-    "EarAccessory",
     "FacialHair",
     "Gloves",
     "Pants",
@@ -29,20 +27,54 @@
         "TextureConfig": {
           "Type": "Variant",
           "Variants": {
-            "Brown": {
+            "Purple": {
               "Properties": {
                 "Translation": {
-                  "Name": "Brown"
+                  "Name": "Purple"
                 }
               },
               "Texture": "NPC/Void/Necromancer_Void/Models/Model_Texture.png",
               "WardrobeColor": [
                 "#800080"
               ]
+            },
+            "Blue": {
+              "Properties": {
+                "Translation": {
+                  "Name": "Blue"
+                }
+              },
+              "Texture": "Characters/Races/Void_Creature/Textures/NicoRueda_Races_Void_Creature_Blue.png",
+              "WardrobeColor": [
+                "#0000ff"
+              ]
+            },
+            "Golden": {
+              "Properties": {
+                "Translation": {
+                  "Name": "Golden"
+                }
+              },
+              "Texture": "Characters/Races/Void_Creature/Textures/NicoRueda_Races_Void_Creature_Golden.png",
+              "WardrobeColor": [
+                "#FFD700"
+              ]
+            },
+            "Gray": {
+              "Properties": {
+                "Translation": {
+                  "Name": "Gray"
+                }
+              },
+              "Texture": "Characters/Races/Void_Creature/Textures/NicoRueda_Races_Void_Creature_Gray.png",
+              "WardrobeColor": [
+                "#808080"
+              ]
             }
           }
         }
       }
     }
-  }
+  },
+  "Icon": "Icons/Wardrobe/race_icon_void.png"
 }

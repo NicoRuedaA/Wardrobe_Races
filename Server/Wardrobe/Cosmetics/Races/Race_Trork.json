@@ -5,7 +5,7 @@
       "Name": "Trork"
     }
   },
-  "CosmeticSlot": "Race_Races",
+  "CosmeticSlot": "Monsters",
   "HiddenCosmeticSlots": [
     "Face",
     "Ears",
@@ -119,5 +119,5 @@
       }
     }
   },
-  "Icon": "Icons/Wardrobe/race_icon_trork.png"
+  "Icon": "Icons/Wardrobe/race_icon_trork_new.png"
 }

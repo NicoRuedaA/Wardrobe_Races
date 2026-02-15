@@ -5,7 +5,7 @@
       "Name": "Saurian"
     }
   },
-  "CosmeticSlot": "Race_Races",
+  "CosmeticSlot": "Beasts",
   "HiddenCosmeticSlots": [
     "Face",
     "Ears",
@@ -70,5 +70,5 @@
       }
     }
   },
-  "Icon": "Icons/Wardrobe/race_icon_saurians.png"
+  "Icon": "Icons/Wardrobe/race_icon_saurian.png"
 }

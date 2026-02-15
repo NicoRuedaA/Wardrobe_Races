@@ -1,11 +1,11 @@
 {
   "Properties": {
     "Translation": {
-      "Name": "Race_Races"
+      "Name": "Eldritchs"
     }
   },
   "Category": "Races",
   "SelectedIcon": "Icons/Wardrobe/race_icon_races_selected.png",
-  "Order": 1,
+  "Order": 7,
   "Icon": "Icons/Wardrobe/race_icon_races.png"
 }
